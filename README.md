@@ -23,3 +23,13 @@ $ flutter pub get
 
 ##### Misc
 1. ```'r'``` for hot reload, ```'R'``` for hot restart
+
+## iOS
+
+## Android
+
+## React (with Express)
+
+## Flask
+
+## Django
