@@ -22,10 +22,15 @@ $ python3 app.py
 $ pip3 install -r requirements.txt
 ```
 
-## SQLite
+## SQLite3
 ```shell
 $ sqlite3 db.db "CREATE TABLE contact(userFrom TEXT, userTo TEXT, codeName TEXT);"
 $ sqlite3 message.db "CREATE TABLE tb(date TEXT, userFrom TEXT, userTo TEXT, message TEXT);"
+```
+
+## Curl
+```shell
+$ curl -X POST http://localhost:5000/create_user -H "Content-Type: application/json" -d '{"userID": 2, "userName": "jianzhi"}'  
 ```
 
 
