@@ -28,6 +28,10 @@ $ sqlite3 db.db "CREATE TABLE contact(userFrom TEXT, userTo TEXT, codeName TEXT)
 $ sqlite3 message.db "CREATE TABLE tb(date TEXT, userFrom TEXT, userTo TEXT, message TEXT);"
 ```
 
+```shell
+sqlite> INSERT INTO user(userID, userName, groupsChampioned, picture) VALUES(0, 'jz', '[0, 1]', '');
+```
+
 ## Curl
 ```shell
 $ curl -X POST http://localhost:5000/create_user -H "Content-Type: application/json" -d '{"userID": 2, "userName": "jianzhi"}'  
